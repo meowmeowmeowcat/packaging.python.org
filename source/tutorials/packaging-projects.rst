@@ -523,6 +523,10 @@ After the command completes, you should see output similar to this:
 Once uploaded your package should be viewable on TestPyPI, for example,
 https://test.pypi.org/project/example-pkg-YOUR-USERNAME-HERE
 
+.. tip:: If you're using Windows and trying to paste your password or token
+  in the Command Prompt or PowerShell, you may get an error like
+  ``HTTPError: 403 Forbidden from https://test.pypi.org/legacy/`` after running the command.
+  See https://pypi.org/help/#invalid-auth for the solution.
 
 Installing your newly uploaded package
 --------------------------------------
